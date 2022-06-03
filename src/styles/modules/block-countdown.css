@@ -27,7 +27,7 @@
 
 .block-countdown__caption__time {
     width: 100;
-    padding: 0 22%;
+    padding: 8px 22%;
     margin: 0;
     display: flex;
     justify-content: space-between;

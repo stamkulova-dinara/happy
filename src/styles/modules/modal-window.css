@@ -20,8 +20,8 @@
 .modal__wrapper {
   background-color: #ffffff;
   max-width: 506px;
-  min-width: 320px;
-  padding: 2% 0;
+  min-width: 315px;
+  padding: 2% 0 5% 0;
   margin: 250px 0 100px 0;
   text-align: center;
   color: #000000;
@@ -273,6 +273,15 @@
 
 @media (max-width: 420px) {
   .modal__wrapper {
+    padding: 5% 2%;
+  }
+  .modal__wrapper, .modal-content__form-input{
     width: 320px;
+  }
+  .modal-content__form-input input {
+    width: 270px;
+  }
+  .plan label {
+    width: 270px;
   }
 }

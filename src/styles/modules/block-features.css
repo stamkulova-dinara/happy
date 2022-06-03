@@ -1,6 +1,6 @@
 .block-features {
     background-color: #222222;
-    padding: 7.5% 7%;
+    padding: 7% 5% 8% 9%;
     position: relative;
     text-align: center;
     display: flex;
@@ -40,7 +40,7 @@
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    margin: 0 6px 16px 6px;
+    margin: 16px 7px 8px 7px;
 }
 
 .block-features__card-image {
