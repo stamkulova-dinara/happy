@@ -26,11 +26,15 @@
 }
 
 .block-countdown__caption__time {
-    width: 100;
-    padding: 8px 22%;
+    width: 100%;
     margin: 0;
+    text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.block-countdown__caption__timer_content {
+    display: flex;
 }
 
 .block-countdown__caption__timer {
@@ -98,7 +102,6 @@
         font-size: 25px;
     }
     .block-countdown__caption__time {
-        padding: 0 5%;
         font-size: 70px;
     }
 
@@ -115,7 +118,6 @@
 @media (max-width: 550px) {
     .block-countdown__caption__time {
         font-size: 35px;
-        padding: 0 2%;
         margin: 0;
     }
 

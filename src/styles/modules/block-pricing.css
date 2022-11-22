@@ -54,6 +54,11 @@
 .block-pricing__card button {
     width: 129px;
     margin: 0;
+    transition: all 0.3s;
+}
+.block-pricing__card button:hover {
+    cursor: pointer;
+    transform: scale(1.03);
 }
 .block-pricing__card-subtitle {
     margin: 0;

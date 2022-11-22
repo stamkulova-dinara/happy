@@ -41,6 +41,12 @@
     display: flex;
     justify-content: center;
     margin: 16px 7px 8px 7px;
+    transition: all 0.5s;
+}
+.block-features__card:hover {
+    cursor: pointer;
+    transform: scale(1.00);
+    box-shadow: 0 13px 40px -5px rgba(241, 241, 241, 0.12), 0 8px 32px -8px hsla(0, 6%, 93%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 100%, 0.02);
 }
 
 .block-features__card-image {
@@ -114,6 +120,16 @@
     .block-features__card {
         min-width: 300px;
         margin: 16px 7px 0 7px;
+    }
+}
+@media (max-width: 800px){
+    .block-features__card{
+        width: 40%;
+    }
+}
+@media (max-width: 662px){
+    .block-features__card{
+        width: 365px;
     }
 }
 

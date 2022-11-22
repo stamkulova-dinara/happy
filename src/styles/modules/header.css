@@ -37,6 +37,7 @@ a {
 .header__menu-form__btn {
   width: 172px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .header__hamburger-menu {

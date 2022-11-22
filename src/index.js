@@ -1,4 +1,4 @@
-import config from './data/config.json' assert {type: "json"}
+import config from '../data/config.json' assert {type: "json"}
 import { renderLink } from './js/modules/app-store-link.js';
 import { getCountDown } from './js/modules/get-countdown.js';
 import { testimonials } from './js/modules/testimonials.js';

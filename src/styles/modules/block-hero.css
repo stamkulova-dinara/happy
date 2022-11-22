@@ -27,6 +27,7 @@
 
 .block-hero__info-btn {
     width: 148px;
+    cursor: pointer;
 }
 @media (max-width: 970px) {
     .block-hero {
